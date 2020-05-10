@@ -10,7 +10,17 @@ print(np.random.choice(dizi1,4,p=olasilik))
 child = dict(child1=dict(name='hasan',yas=21),child2=dict(name='ebru',yas=25))
 print(child, child.keys(), child.get('child1'))
 
+#Decoratorler
 #Decoratorleri özellikle loglama, error yakalama ve süre hesabı için kullanmak mantıklı.
+
+#Fonksiyonu parametre haline getirme
+#Eğer parametre haline getirdikten sonra değiştirmek veya silmek istersek setter ve deleter kullanılabilir.
+class metin():
+    @property
+    def yaz(self):
+        return 'deneme'
+kelime = metin()
+print(kelime.yaz)
 
 #Einstein-Summation
 #numpy.einsum(subscripts, *operands, out=None, dtype=None, order='K', casting='safe', optimize=False)
