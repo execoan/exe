@@ -24,3 +24,15 @@ print(kelime.yaz)
 
 #Einstein-Summation
 #numpy.einsum(subscripts, *operands, out=None, dtype=None, order='K', casting='safe', optimize=False)
+
+
+import numpy as np
+np.random.seed(69)
+
+chain = 2*np.random.binomial(1,0.5,size=(2,10,10))-1
+chain2= [a         for matrix in chain
+                   for k in matrix
+                   for a in k]
+print(len(chain2))
+#rastgele binomial dağılım üretip sonra onun içindeki elemanlara tek tek erişmek,
+#ayrıca bu kodla liste içinde for döngüsü kullanımıda örneklendi.
