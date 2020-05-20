@@ -36,3 +36,10 @@ chain2= [a         for matrix in chain
 print(len(chain2))
 #rastgele binomial dağılım üretip sonra onun içindeki elemanlara tek tek erişmek,
 #ayrıca bu kodla liste içinde for döngüsü kullanımıda örneklendi.
+
+
+x, y, z = 0, 1, 0
+
+if any((x, y, z)):  #herhangi biri 1 yada true ise 
+    print(any((x, y, z)))
+    print('passed')
