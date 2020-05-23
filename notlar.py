@@ -56,3 +56,5 @@ list1 = [l,p]
 
 for i in list1:
     i(3)
+    
+list1[0](5) #list1 in 0.fonskiyoa bööle erişebiliriz.
