@@ -58,3 +58,11 @@ for i in list1:
     i(3)
     
 list1[0](5) #list1 in 0.fonskiyoa bööle erişebiliriz.
+###################################################################
+def buyut(yazi):
+    return (yazi.upper())
+    
+yeni_liste = list(map(buyut,['test1','test2']))
+
+print(yeni_liste)
+###################################################################
