@@ -43,3 +43,16 @@ x, y, z = 0, 1, 0
 if any((x, y, z)):  #herhangi biri 1 yada true ise 
     print(any((x, y, z)))
     print('passed')
+    
+##################################################################
+#Fonksiyonları liste içine koyup çağırabiliriz.
+def l(a):
+    print(a,'1')
+
+def p(b):
+    print(b,'2')
+    
+list1 = [l,p]
+
+for i in list1:
+    i(3)
