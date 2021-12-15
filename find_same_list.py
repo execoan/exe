@@ -5,11 +5,6 @@ Created on Thu Dec 16 01:30:55 2021
 @author: yunus
 """
 
-a = 'abscfmonolayer'
-
-print(a.find('monolayer',0,1112))
-
-
 
 a = [[1,2],[3,4],[5,6],[8,9],[1,2],[1,2],[3,4],[5,6],[11,12],[0,1],[13,15],[0,1]]
 
